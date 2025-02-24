@@ -75,7 +75,7 @@
             iconButton3.FlatAppearance.BorderSize = 0;
             iconButton3.FlatStyle = FlatStyle.Flat;
             iconButton3.ForeColor = Color.MintCream;
-            iconButton3.IconChar = FontAwesome.Sharp.IconChar.Virus;
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.FileText;
             iconButton3.IconColor = Color.MintCream;
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton3.ImageAlign = ContentAlignment.MiddleLeft;
@@ -96,7 +96,7 @@
             but_Profile.FlatAppearance.BorderSize = 0;
             but_Profile.FlatStyle = FlatStyle.Flat;
             but_Profile.ForeColor = Color.MintCream;
-            but_Profile.IconChar = FontAwesome.Sharp.IconChar.Virus;
+            but_Profile.IconChar = FontAwesome.Sharp.IconChar.FaceLaughBeam;
             but_Profile.IconColor = Color.MintCream;
             but_Profile.IconFont = FontAwesome.Sharp.IconFont.Auto;
             but_Profile.ImageAlign = ContentAlignment.MiddleLeft;
@@ -117,7 +117,7 @@
             but_Menu.FlatAppearance.BorderSize = 0;
             but_Menu.FlatStyle = FlatStyle.Flat;
             but_Menu.ForeColor = Color.MintCream;
-            but_Menu.IconChar = FontAwesome.Sharp.IconChar.Virus;
+            but_Menu.IconChar = FontAwesome.Sharp.IconChar.MapSigns;
             but_Menu.IconColor = Color.MintCream;
             but_Menu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             but_Menu.ImageAlign = ContentAlignment.MiddleLeft;
@@ -151,7 +151,6 @@
             panel.Dock = DockStyle.Top;
             panel.Location = new Point(0, 0);
             panel.Name = "panel";
-            panel.Padding = new Padding(4);
             panel.Size = new Size(800, 30);
             panel.TabIndex = 1;
             panel.Tag = "1";
@@ -161,52 +160,52 @@
             // iconButton4
             // 
             iconButton4.Dock = DockStyle.Right;
-            iconButton4.FlatAppearance.BorderSize = 2;
+            iconButton4.FlatAppearance.BorderSize = 0;
             iconButton4.FlatStyle = FlatStyle.Flat;
             iconButton4.ForeColor = Color.MintCream;
-            iconButton4.IconChar = FontAwesome.Sharp.IconChar.Close;
+            iconButton4.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             iconButton4.IconColor = Color.MintCream;
             iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton4.IconSize = 24;
-            iconButton4.Location = new Point(730, 4);
+            iconButton4.Location = new Point(710, 0);
             iconButton4.Name = "iconButton4";
             iconButton4.Padding = new Padding(0, 2, 0, 0);
-            iconButton4.Size = new Size(22, 22);
-            iconButton4.TabIndex = 2;
+            iconButton4.Size = new Size(30, 30);
+            iconButton4.TabIndex = 5;
             iconButton4.UseVisualStyleBackColor = true;
             // 
             // iconButton2
             // 
             iconButton2.Dock = DockStyle.Right;
-            iconButton2.FlatAppearance.BorderSize = 2;
+            iconButton2.FlatAppearance.BorderSize = 0;
             iconButton2.FlatStyle = FlatStyle.Flat;
             iconButton2.ForeColor = Color.MintCream;
-            iconButton2.IconChar = FontAwesome.Sharp.IconChar.Close;
+            iconButton2.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             iconButton2.IconColor = Color.MintCream;
             iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton2.IconSize = 24;
-            iconButton2.Location = new Point(752, 4);
+            iconButton2.Location = new Point(740, 0);
             iconButton2.Name = "iconButton2";
             iconButton2.Padding = new Padding(0, 2, 0, 0);
-            iconButton2.Size = new Size(22, 22);
-            iconButton2.TabIndex = 1;
+            iconButton2.Size = new Size(30, 30);
+            iconButton2.TabIndex = 6;
             iconButton2.UseVisualStyleBackColor = true;
             // 
             // iconButton1
             // 
             iconButton1.Dock = DockStyle.Right;
-            iconButton1.FlatAppearance.BorderSize = 2;
+            iconButton1.FlatAppearance.BorderSize = 0;
             iconButton1.FlatStyle = FlatStyle.Flat;
             iconButton1.ForeColor = Color.MintCream;
             iconButton1.IconChar = FontAwesome.Sharp.IconChar.Close;
             iconButton1.IconColor = Color.MintCream;
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton1.IconSize = 24;
-            iconButton1.Location = new Point(774, 4);
+            iconButton1.Location = new Point(770, 0);
             iconButton1.Name = "iconButton1";
             iconButton1.Padding = new Padding(0, 2, 0, 0);
-            iconButton1.Size = new Size(22, 22);
-            iconButton1.TabIndex = 0;
+            iconButton1.Size = new Size(30, 30);
+            iconButton1.TabIndex = 7;
             iconButton1.UseVisualStyleBackColor = true;
             // 
             // Form1
