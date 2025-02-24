@@ -17,7 +17,18 @@ namespace My_business_card
 
         private void panel_MouseDown(object sender, MouseEventArgs e)
         {
+            currentMousPos = new Point(-e.X, -e.Y);
 
+        }
+
+        private void panel_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mouseLoc = Control.MousePosition;
+                mouseLoc.Offset(currentMousPos.X, currentMousPos.Y);
+                Location = mouseLoc;
+            }
         }
     }
 }
