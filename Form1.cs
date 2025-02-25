@@ -30,5 +30,20 @@ namespace My_business_card
                 Location = mouseLoc;
             }
         }
+
+        private void iconButton1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_menu_click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
